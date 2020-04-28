@@ -1,0 +1,9 @@
+<SearchInput></SearchInput>
+<!--自定义监听事件 -->
+<!-- 从goods_list的js中传递tabs到自定义组件的wxml中
+并在自定义组件中对其循环渲染
+这里的tabs属性在组件的js中的properties进行定义
+这里的bindtabsItemchange属性在父组件index.js中-->
+<Tabs tabs="{{tabs}}" bindtabsItemChange="handleTabsItemChange">
+内容
+</Tabs>
